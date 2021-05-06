@@ -22,15 +22,15 @@ void setup() {
   pinMode(limit_left, INPUT_PULLUP);
   pinMode(button, INPUT_PULLUP);
   trig = true;
-  Serial.begin(9600);
-  delay(2000);
+//  Serial.begin(9600);
+//  delay(2000);
 }
 
 void loop() {
   // detecting push button & limit switch
   left = digitalRead(limit_left);
   right = digitalRead(limit_right);
-  nilai = digitalRead(motor_on);
+//  nilai = digitalRead(motor_on);
   reading = digitalRead(button);
 
   if (reading != lastButtonState) {
@@ -53,8 +53,8 @@ void loop() {
 
   //  Serial.print("buttonState :");
   //  Serial.println(buttonState);
-  Serial.print("trig :");
-  Serial.println(trig);
+//  Serial.print("trig :");
+//  Serial.println(trig);
   //    Serial.print("motor_on :");
   //    Serial.println(nilai);
   //    Serial.print("limit_left :");

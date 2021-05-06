@@ -1,16 +1,5 @@
 void algorithm() {
 
-
-  //if(state == 4 && left == 0){
-  //  digitalWrite(motor_right, HIGH);
-  //  digitalWrite(motor_left, HIGH);
-  //  delay(1000);
-  //  state = 1;
-  //}
-  //else {
-  //  digitalWrite(motor_right, LOW);
-  //  digitalWrite(motor_left, LOW);
-  //}
   //1 -> motor stop in the left
   //2 -> motor moving to right
   //3 -> motor stop in the right
