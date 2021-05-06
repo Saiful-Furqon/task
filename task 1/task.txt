@@ -1,0 +1,44 @@
+I want to trigger three relay, (realy 1, relay2, relay3) 
+with the help of 2 ultrasonic and 1 Ir proximity sensor.
+
+
+The working should be as following
+
+
+Ultrasonic1 if distance < 5cm 
+then relay1 high for 1 sec
+
+
+Ultrasonic2 if distance < 5cm 
+then relay2 high for 1 sec
+
+
+If ir proximity1 sensor high 
+then relay3 high for 1 sec
+
+
+make sure there is a debounce function so that if one sensor is triggered, 
+it should not trigger for next 3sec
+ah also, after ultransonic relay is triggered, 
+don't release the trigger until > 5cm
+
+
+
+things i have
+
+uno 1pcs
+
+ultrasonic sensor 2pcs
+
+proximity sensor 1pcs
+
+5v relay 3pcs
+
+bc547 3pcs
+
+10k resistor 3pcs
+
+
+I want code (with basic comments)  in arduino file and text file. 
+I need a schematic as well for knowing how to connect, 
+a hand written schematic is also fine.
